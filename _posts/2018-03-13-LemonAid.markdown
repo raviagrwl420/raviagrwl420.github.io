@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "LemonAid"
+date:   2018-03-13 09:00:00 -0700
+categories: hci
+---
+
+## Introduction
+
+We already discussed *research through design* as a possible research method and its proposed benefits in the last discussion paper. To summarize, *research through design* is a newly recognized research approach where design activities and artifacts are the key components in the process of generating and communicating knowledge<sup>4</sup>. The research process used to design LemonAid, a novel crowdsourced contextual help tool for web-applications, is a perfect example of this approach. In this research, the researchers start by understanding the current state of help systems and identify a vision for the *preferred* state, and then try to achieve it through a user-centered design approach.
+
+In this post, we will discuss a key research-worthy insight that was made possible by the research of LemonAid that would not have been achieved without the artifact or the system under investigation.
+
+### Main idea behind LemonAid
+
+While crowdsourced help has been found to be powerful at generating answers to help questions, locating answers from past discussions can be difficult<sup>1</sup>. Moreover, users often find it tough to even formulate a search query for their help needs. LemonAid is a novel crowdsourced contextual help tool for web-applications that aims at solving these issues. It enables users to retrieve help from other users by selecting user interface components on any page of a website or a web-application.
+
+### Key insight from the design exploration for LemonAid
+
+The core design problem that was first investigated by the researchers was a way for end users to retrieve relevant questions asked by other end users on the website<sup>3</sup>. While exploring the design space in search for a generalizable solution, they designed a low-fidelity paper-based prototype and conducted a Wizard-of-Oz study that informed the final design of LemonAid. The key insight that they were able to derive out of this study was that the users tend to make similar selections in the interface for similar help needs and different selections for different help needs<sup>1</sup>.
+
+The insight from the paper-based study showed that there is a tight coupling between the users' help needs and the UI elements. It also showed that this observation generalizes across different applications and help-seeking scenarios. LemonAid utilizes this observation to its advantage and allows users to retrieve questions based on the selection of UI elements. The selection of the UI element helps identify the context in a better way thereby reducing the variation in the users' search queries. It also helps do away the problem that users face in locating the relevant questions and answers.
+
+The insight about how users can retrieve questions and answers by making selections of UI elements would not have been possible without the artifact that was generated as a part of the research process. The paper-based study and the resulting artifact helped validate the initial idea and inform the novel interaction design of LemonAid. It did not however, provide any evidence about its effectiveness in real-world scenarios. The effectiveness was validated later through a field study and its successful commercialization as AnswerDash<sup>2,3</sup>.
+
+### Conclusion
+
+The problem of designing a help system that better suits the users' requirements is inherently an under-constrained problem. Design-based research inquiry is best suited to address such problems due to its exploratory nature and iterative process. In this discussion paper, we discussed how design-based research inquiry identified a key insight that informed the subsequent design of LemonAid which would not have been possible otherwise.
+
+#### References
+1. Parmit K. Chilana, Andrew J. Ko, and Jacob O. Wobbrock. 2012. LemonAid: selection-based crowdsourced contextual help for web applications. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '12). 1549-1558.
+2. Parmit K. Chilana, Andrew J. Ko, Jacob O. Wobbrock, and Tovi Grossman. 2013. A multi-site field study of crowdsourced contextual help: usage and perspectives of end users and software teams. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '13). 217-226.
+3. Parmit K. Chilana, Andrew J. Ko, and Jacob O. Wobbrock. 2015. From User-Centered to Adoption-Centered Design: A Case Study of an HCI Research Innovation Becoming a Product. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI '15). 1749-1758.
+4. John Zimmerman, Jodi Forlizzi, and Shelley Evenson. 2007. Research through design as a method for interaction design research in HCI. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '07). 493-502.

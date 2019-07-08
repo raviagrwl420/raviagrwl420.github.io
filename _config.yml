@@ -16,8 +16,7 @@
 title: Ravi Agrawal
 email: ravi.agrwl420@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I am a graduate research assistant at the School of Computing Science at Simon Fraser University. 
-  Currently, I work on Combinatorial Optimization and Machine Learning. I'm also interested in Human Computer Interaction and Computer Graphics.
+  Graduate student at the School of Computing Science at Simon Fraser University.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ra_ag_
